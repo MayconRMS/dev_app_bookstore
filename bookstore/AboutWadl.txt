@@ -1,0 +1,13 @@
+O Jerse publica um arquivo wadl onde fica informações dos recursos para o cliente
+=> Acesse : http://localhost:8080/bookstore/application.wadl
+
+=> http://localhost:8080/bookstore/application.wadl/xsd0.xsd
+Esse inclui todos os elementos que formam os recursos da aplicação, util para gerr classes java para representar esses recursos.
+
+Na tag <resources>  mostra todos os recursos expostos e seus devidas representação
+
+Na tag <request> mostra os recursos a serem enviados
+
+Na tag <response> mostra o recurso retornado
+
+Lembrando que esse arquivo não é obrigatorio,mais facilita para verificação dos recursos disponiveis de uma aplicação.

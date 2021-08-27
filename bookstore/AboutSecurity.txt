@@ -1,0 +1,12 @@
+Criando certificado auto assinado 
+
+commando: sudo keytool -genkey -keyalg RSA -alias minha_chave -keystore server.keystore -storepass bookstore -validity 360 -keysize 2048
+
+Obs: è criado o arquivo(server.keystore) no diretorio da execução do comando
+
+
+Verificar chave no arquivo
+
+comando: keytool -list -v -keystore server.keystore 
+
+Obs: senha será a definida (bookstore)
